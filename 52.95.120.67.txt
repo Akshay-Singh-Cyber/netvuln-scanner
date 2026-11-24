@@ -1,6 +1,0 @@
-The host is: up.
-The port 80 is: open.
-The method of scanning is: syn-ack.
-There is a 89 percent chance that the host is running Citrix NetScaler load balancer.
-
-Report generated 01-01-2024_16:47:33 GMT
