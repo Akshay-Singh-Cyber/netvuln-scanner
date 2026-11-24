@@ -36,9 +36,9 @@ Scanned in an isolated VirtualBox host-only network (`-p 1-10000`):
 - **240+ candidate CVEs** (18 critical, 85 high, 114 medium, 24 low)
 - Detected the **vsftpd 2.3.4 backdoor (CVE-2011-2523)** via keyword fallback, after exact CPE matching missed it (Nmap vendor `vsftpd` vs NVD `vsftpd_project`)
 
-![Sample report](screenshots/report.png)
+![Sample report](report.png)
 
-📄 Full report: [sample-report/metasploitable-report.pdf](sample-report/metasploitable-report.pdf)
+📄 Full report: [report.pdf](report.pdf)
 
 ### Limitations found during testing
 - **False positives:** version-range matching includes CVEs for other platforms (e.g. Windows-only Apache `mod_isapi`) or other branches (Apache 2.4.x bugs listed against 2.2.8). Findings need manual triage.
