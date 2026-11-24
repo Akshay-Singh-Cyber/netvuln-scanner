@@ -1,6 +1,0 @@
-The host is: up.
-The port 80 is: open.
-The method of scanning is: syn-ack.
-There is a 92 percent chance that the host is running OneAccess 1641 router.
-
-Report generated 05-01-2024_07:55:16 GMT
