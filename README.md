@@ -38,6 +38,8 @@ Scanned in an isolated VirtualBox host-only network (`-p 1-10000`):
 
 ![Sample report](screenshots/report.png)
 
+📄 Full report: [sample-report/metasploitable-report.pdf](sample-report/metasploitable-report.pdf)
+
 ### Limitations found during testing
 - **False positives:** version-range matching includes CVEs for other platforms (e.g. Windows-only Apache `mod_isapi`) or other branches (Apache 2.4.x bugs listed against 2.2.8). Findings need manual triage.
 - **False negatives:** services without a detected version (UnrealIRCd, the port-1524 bindshell) or with only a version range (Samba `3.X - 4.X`) cannot be matched to CVEs. Version matching alone misses backdoors and misconfigurations.
