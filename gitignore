@@ -1,0 +1,5 @@
+# generated scan output
+*.xml
+*.json
+*.html
+__pycache__/
